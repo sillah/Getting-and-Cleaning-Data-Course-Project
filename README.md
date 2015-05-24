@@ -1,7 +1,8 @@
 ==================================================================
 #### Getting and Cleaning Data Course Project
 ==================================================================
-###### Sillah
+##### May 24th, 2015
+##### Prepared by Sillah
 ==================================================================
 This project uses data from the Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine study conducted by Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.  
 
@@ -9,13 +10,12 @@ Their experiments were carried out with a group of 30 volunteers within an age b
 
 As per project directions, I combined the training and test data from the Human Activity Recognition Using Smartphones Dataset, selected the variables with mean() and standard deviation (std()) in their names, renamed variables to make them more descriptive, and created a dataset that showed the mean values of the variables I selected for every activity and subject.  
 
-For each record, I provided:
-======================================
+**For each record, I provided:**  
 - Activity Name.   
 - An identifier of the subject who carried out the experiment.  
 - A 66-feature vector showing the mean of variables that had mean() or std() in their names in the Human Activity Recognition Using Smartphones Dataset.   
 
-The dataset includes the following files:
+The dataset includes the following files:  
 'README.md'  
 'CodeBook.md':  Data dictionary and description of steps  
 'run_analysis.R':  The R script that performs the analysis required for this project  
